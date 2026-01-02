@@ -59,9 +59,7 @@ header button:hover {
   transform: scale(1.08);
 }
 header:hover{
-  transform: scale(1.1) rotate(0deg);
-  
-  
+     box-shadow: 0 0 10px 5px rgb(116, 134, 234);
 }
 nav {
   width: 100%;
