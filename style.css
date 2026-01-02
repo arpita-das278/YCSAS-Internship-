@@ -6,7 +6,7 @@
 }
 
 body {
-  min-height: 100vh;
+  min-height: 90vh;
   background: linear-gradient(135deg, #8e92b4, #bc9ba3);
   color: #fff;
   overflow-x: hidden;
@@ -42,7 +42,7 @@ header p {
 header button {
   position: absolute;
   top: 20px;
-  right: 25px;
+  right: 70px;
   background: rgba(255, 255, 255, 0.85);
   color: #333;
   border: none;
@@ -58,7 +58,11 @@ header button:hover {
   background: #ffdd57;
   transform: scale(1.08);
 }
-
+header:hover{
+  transform: scale(1.1) rotate(0deg);
+  
+  
+}
 nav {
   width: 100%;
   background: rgba(0, 0, 0, 0.35);
@@ -121,19 +125,38 @@ section h3 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+section h4 {
+  font-size: clamp(1.7rem,2vw, 1.4rem);
+  margin-bottom: 25px;
+  background: linear-gradient(90deg, #ffdd57, #ff512f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 section p,
 section li {
   font-size: clamp(1rem, 1.5vw, 1.15rem);
   line-height: 1.8;
   margin-bottom: 15px;
   color: #f1f1f1;
+  
 }
  section:hover{
       transform: translateY(-8px);
-      box-shadow: 0 15px 30px rgba(188, 177, 177, 0.15);
+        box-shadow: 0 0 10px 5px rgb(116, 134, 234);
     }
-
+section p{
+  background: linear-gradient(90deg,#f47b63,  #f3dd88);
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding-left: 40px;
+  width: 50%;  
+  color: #423f3f;
+}
+section p:hover{
+  transform: scale(1.1) rotate(0deg);
+  box-shadow: 0 0 5px 3px rgb(89, 186, 54);
+  
+}
 .skill-box {
   display: inline-flex;
   align-items: center;
@@ -147,9 +170,46 @@ section li {
   letter-spacing: 1px;
   transition: all 0.4s ease;
 }
+.skill-box:hover {
+  background: #4b0082;
+  color: white;
+  transform: scale(1.1) rotate(1deg);
+}
+form input {
+  padding: 8px;
+  width: 220px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 2px solid #000;
+  background-color: #d3afaf;
+}
 
+form button {
+  padding: 8px 15px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 2px solid #000;
+  background-color: #ab89c3;
+}
+form :hover{
+  box-shadow: 0 0 20px 10px rgb(89, 186, 54);
+}
+
+form ::placeholder {
+  color: #363535;
+}
 @media (hover: hover) {
   .skill-box:hover {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    color: #222;
+    transform: scale(1.12);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+  }
+}
+@media (hover: hover) {
+  section p:hover {
     background: linear-gradient(135deg, #ff9a9e, #fad0c4);
     color: #222;
     transform: scale(1.12);
