@@ -60,9 +60,7 @@ header button:hover {
 }
 header:hover{
    
-        box-shadow: 0 0 10px 5px rgb(116, 134, 234);
-  
-  
+     box-shadow: 0 0 10px 5px rgb(116, 134, 234);
 }
 nav {
   width: 100%;
