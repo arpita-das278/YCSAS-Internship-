@@ -59,7 +59,8 @@ header button:hover {
   transform: scale(1.08);
 }
 header:hover{
-  transform: scale(1.1) rotate(0deg);
+   
+        box-shadow: 0 0 10px 5px rgb(116, 134, 234);
   
   
 }
@@ -149,14 +150,11 @@ section p{
   box-sizing: border-box;
   border-radius: 12px;
   padding-left: 40px;
+  padding-right: 20px;
   width: 50%;  
   color: #423f3f;
 }
-section p:hover{
-  transform: scale(1.1) rotate(0deg);
-  box-shadow: 0 0 5px 3px rgb(89, 186, 54);
-  
-}
+
 .skill-box {
   display: inline-flex;
   align-items: center;
@@ -170,11 +168,7 @@ section p:hover{
   letter-spacing: 1px;
   transition: all 0.4s ease;
 }
-.skill-box:hover {
-  background: #4b0082;
-  color: white;
-  transform: scale(1.1) rotate(1deg);
-}
+
 form input {
   padding: 8px;
   width: 220px;
@@ -200,22 +194,18 @@ form :hover{
 form ::placeholder {
   color: #363535;
 }
-@media (hover: hover) {
-  .skill-box:hover {
+.skill-box:hover {
     background: linear-gradient(135deg, #ff9a9e, #fad0c4);
     color: #222;
     transform: scale(1.12);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
   }
-}
-@media (hover: hover) {
   section p:hover {
     background: linear-gradient(135deg, #ff9a9e, #fad0c4);
     color: #222;
     transform: scale(1.12);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
   }
-}
 
 footer {
   width: 100%;
@@ -223,6 +213,7 @@ footer {
   background: rgba(0, 0, 0, 0.6);
   text-align: center;
   font-size: 0.9rem;
+  margin-bottom: 20px;
   
 }
 
