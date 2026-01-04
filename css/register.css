@@ -1,0 +1,103 @@
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.next {
+  padding: 20px;
+  font-size: large;
+  background-color: white;
+  margin: 30px auto;
+  max-width: 700px;
+  border-radius: 10px;
+}
+
+
+.next h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 20px;
+}
+
+
+.next input {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+  color: #000;
+  background-color: rgb(200, 206, 219);
+  text-align: left;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 2px solid antiquewhite;
+  font-size: large;
+}
+.next select {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+  color: #000;
+  background-color: rgb(200, 206, 219);
+  text-align: left;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 2px solid antiquewhite;
+  font-size: large;
+}
+.next option{
+    text-align: left;
+}
+.next ::placeholder {
+  color: #000;
+}
+
+
+.sub input {
+  width: 90%;
+  max-width: 120px;
+  color: white;
+  background-color: rgb(57, 178, 211);
+  font: 1em sans-serif;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sub input:hover {
+  background-color: rgb(38, 150, 180);
+}
+
+
+.doc {
+  background-color: rgb(84, 169, 182);
+  padding: 30px 20px;
+  margin: 40px auto;
+  max-width: 900px;
+  border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .next {
+    margin: 20px;
+  }
+
+  .doc {
+    margin: 30px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .next h1 {
+    font-size: 22px;
+  }
+
+  .next input {
+    font-size: 16px;
+  }
+
+  .sub input {
+    max-width: 100%;
+  }
+}
