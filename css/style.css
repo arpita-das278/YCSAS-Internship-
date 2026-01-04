@@ -119,7 +119,7 @@ section {
 section h2,
 section h3 {
   font-size: clamp(1.7rem, 3vw, 2.4rem);
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   background: linear-gradient(90deg, #ffdd57, #ff512f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -204,7 +204,23 @@ form ::placeholder {
     transform: scale(1.12);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
   }
-
+.download{ 
+  background: linear-gradient(90deg, #efe6c2, #a5c66d);
+  color: #0c0c0c;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+.download:hover{
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    color: #222;
+    transform: scale(1.12);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
 footer {
   width: 100%;
   padding: 20px;

@@ -1,0 +1,248 @@
+*{
+    margin : 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: Roboto, sans-serif, arial;
+    font-size: 16px;
+    color: #242424;
+}
+.container{
+    width: 1300px;
+    margin: 0px auto;
+}
+.header{
+    background: rgb(149, 149, 202);
+    padding: 4px;
+}
+.header b{
+    
+    color: rgb(5, 5, 5);
+    padding: 10px;
+    font-size: 20px;
+}
+.header h1{
+    
+    color: rgb(5, 5, 5);
+    padding: 5px;
+    font-size: 20px;
+}
+nav{
+    float: right;
+    padding-top: 20px;
+}
+nav a{
+    flex-basis: 31;;
+    color: white;
+    text-decoration:none;
+    font-size: 18px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 3px 13px;
+    font-weight: 500;
+    transition: 0.5s;
+    
+}
+nav a:hover{
+    box-shadow: 0 0 30px 10px rgb(234, 234, 105);
+    
+}
+.image{
+    position: relative;
+    width: 100%;
+    
+}
+.image img{
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    opacity: 0.8;
+    padding-left: 70px;
+    
+    padding-right: 70px;
+    padding-top: 5px;
+    
+    
+    
+}
+.text {
+    position: absolute;
+    text-align: center;
+    padding-top: 230px;
+    left: 40%;
+    color: white;
+    font-size: x-large;
+   
+}
+p{
+    position: absolute;
+    text-align: center;
+    font-size: medium;
+    text-align: center;
+    padding-left: 340px;
+    color: white; 
+    padding-top: 5px;
+}
+.image nav{
+    padding-right: 70px;
+    
+}
+.image nav a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: #000;
+    border-radius: 0px;
+    background-color:rgb(249, 155, 67);
+}
+.arrow-left p{
+    float: left;
+    left: 122%;
+    color: white;
+    font-size: xx-large;
+    bottom: 15%;
+    border-radius: 0px;
+    padding-left: 8px;
+    padding-right: 24px;
+    padding-bottom: 5px;
+    background-color: rgb(249, 155, 67);
+
+}
+.arrow-r p{
+    float: right;
+    right: 174%;
+    color: white;
+    font-size: xx-large;
+    bottom: 15%;
+    border-radius: 0px;
+    padding-left: 13px;
+    padding-right: 24px;
+    padding-bottom: 5px;
+    background-color: rgb(249, 155, 67);
+
+}
+
+.about h1{
+    padding-left: 180px;
+    padding-top: 800px;
+    color: #0e0e0e;
+}
+.about p{
+    text-align: left;
+    padding-left: 180px;
+    padding-right: 600px;
+    color: #0e0e0e;
+}
+.abouts p{
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 180px;
+    padding-right: 600px;
+    color: #0e0e0e;
+}
+.pic img{
+    float: right;
+    padding-right: 150px;
+    width: 400px;
+    padding-left: 10px;
+    
+   
+}
+.pi{ 
+    float: left;
+     padding-top: 200px;
+    padding-left: 200px;
+    
+    
+    
+    
+}
+.pi h1{
+    color: white;
+   padding-left: 20px;
+   padding-right: 20px;
+   font-size: larger;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    background-color: rgb(14, 30, 30);
+    border: solid rgb(214, 156, 49);
+    
+    
+}
+.ft{
+    padding-top: 20px;
+}
+.fot{
+    padding-top: 30px;
+    box-sizing: border-box;
+    background-color: rgb(25, 28, 63);
+    margin-top: 300px;
+    padding-bottom: 250px;
+   
+}
+
+.footer h1{
+    float: left;
+    padding-left: 130px;
+    padding-top: 0px;
+    color: white;
+    padding-bottom: 10px;
+    
+}
+.footer p{
+    padding-top: 60px;
+    text-align: left;
+    padding-left: 130px;
+    padding-right: 900px;
+    color: white;
+}
+.f{
+    float: left;
+    padding-left: 500px;
+    color: white;
+    padding-right: 40px;
+
+}
+.f h1{
+    text-align: center;
+    padding-top: 0px;
+    color: white;
+    padding-bottom: 10px;
+}
+.f li{
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.f li a{
+    color: white;
+    text-decoration: none;
+}
+.c{
+    float: right;
+    color: white;
+    
+    padding-left: 30px;
+    
+    
+}
+.c h1{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.c li{
+    padding-left: 20px;
+     padding-bottom: 15px;
+    padding-right: 20px;
+}
+.m{
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: white;
+    background-color: #0c0c10;
+}
